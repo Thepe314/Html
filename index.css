@@ -1,25 +1,229 @@
-.brand{
-    float:center;
-    
-}
-    
-h1
-{
-    color:white;
-    text-align:center;
-  
-}
+                body 
+                {
+                height: 125vh;
+                margin-top: 80px;
+                padding:30px;
+                background-size: cover;
+                font-family: sans-serif;
+                }
 
+                header 
+                {
+                background-color: orange;
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 5px;
+                height: 30px;
+                display: flex;
+                align-items: center;
+                box-shadow: 0 0 25px 0 black;
+             
+                }
+                
+                header *
+                {
+                display: inline;
+                }
 
-#logo
-{
-    
-}
-.brand .logo h1{
-    font: size 20px;
-}
+                header li 
+                {
+                margin: 80px;
+                }
 
-body{
-    background-color: red;
-}
+                header li a 
+                {
+                color: white;
+                text-decoration: none;
+                }
 
+                div.relative
+                {
+                    position:relative;
+                    width: 1440px;
+                    height:531px;
+                    border:3px solid #73AD21;
+                  
+                }
+
+                div.absolute
+                {
+                    position: absolute;
+                    top:93px;
+                    bottom: 93px;
+                    left:60px;
+                    width:490px;
+                    height:345px;
+                    border:3px solid #73AD21;
+                    font-size: 30px;
+                  
+                    
+                }
+
+                div.relative2
+                {
+                    position:relative;
+                    width: 1440px;
+                    height:531px;
+                    border:3px solid #73AD21;
+                    font-size: 30px;
+                    background-color: #FCBA6E;
+                }
+
+        
+
+                div.choices
+                {
+                    position: absolute;
+                    top:350px;
+                    left:60px;
+                    width:250px;
+                    height:60px;
+                    border:3px solid #73AD21;
+                    font-size: 30px;
+                    text-align: center;
+                    background-color: #FF8A00;
+                }
+
+                div.entertain
+                {
+                    position: absolute;
+                    top:350px;
+                    left:595px;
+                    right:595px;
+                    width:250px;
+                    height:60px;
+                    border:3px solid #73AD21;
+                    font-size: 30px;
+                    text-align: center;
+                    background-color: #FF8A00;
+                    
+                }
+
+                div.replay
+                {
+                    position: absolute;
+                    top:350px;
+                    right:60px;
+                    width:250px;
+                    height:60px;
+                    border:3px solid #73AD21;
+                    font-size: 30px;
+                    text-align: center;
+                    background-color: #FF8A00;
+                }
+
+                div.relative3
+                {
+                    position:relative;
+                    width: 1440px;
+                    height:531px;
+                    border:3px solid #73AD21;
+                    font-size: 30px;
+                    background-color: #FCBA6E;
+                }
+
+                div.absolute3
+                {
+                    position: absolute;
+                    top:93px;
+                    bottom: 93px;
+                    left:60px;
+                    width:490px;
+                    height:345px;
+                    border:3px solid #73AD21;
+                    font-size: 36px;
+                    
+                }
+
+                div.relative4
+                {
+                    position:relative;
+                    width: 1440px;
+                    height:531px;
+                    border:3px solid #73AD21;
+                    font-size: 30px;
+                    background-color: #FCBA6E;
+                }
+
+                div.absolute4
+                {
+
+                    position: absolute;
+                    top:93px;
+                    bottom:93px;
+                    right:60px;
+                    width:781px;
+                    height:322px;
+                    border:3px solid #73AD21;
+                    font-size: 36px;
+                    background-color: #fcaa4c;
+                
+                    
+                }
+
+                div.relative5
+                {
+                    position:relative;
+                    width: 1440px;
+                    height:813px;
+                    border:3px solid #73AD21;
+                    font-size: 30px;
+                    background-color: #FCBA6E;
+                }
+
+                div.YourContacts
+                {
+                    position: absolute;
+                    top:132px;
+                    bottom: 93px;
+                    left:60px;
+                    width:678px;
+                    height:428px;
+                    border:3px solid #73AD21;
+                    font-size: 36px;
+                    background-color: #fcaa4c;
+                }
+                div.Ourcontacts
+                {
+                    position: absolute;
+                    top:132px;
+                    bottom:93px;
+                    Right:60px;
+                    width:479px;
+                    height:427px;
+                    border:3px solid #73AD21;
+                    font-size: 36px;
+                    text-align: left 60px;
+                    background-color: #fcaa4c;
+                   
+                }
+                div.Phonenumber
+                {
+                    position: absolute;
+                    top:27px;
+                    bottom:307px;
+                    left:30px;
+                    width:298px;
+                    height:94px;
+                    border:3px solid #73AD21;
+                    font-size: 36px;
+                    text-align: left 60px;
+                    background-color:#fd9621;
+                }
+                div.Email
+                {
+                    position: absolute;
+                    top:149px;
+                    bottom:307px;
+                    left:30px;
+                    width:398px;
+                    height:94px;
+                    border:3px solid #73AD21;
+                    font-size: 36px;
+                    text-align: left 60px;
+                    background-color: #fd9621;
+        
+                }
+                
+            
